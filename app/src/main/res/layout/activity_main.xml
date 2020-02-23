@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="@dimen/base_horizontal_margin"
+            android:layout_marginTop="@dimen/base_vertical_margin"
+            android:layout_marginEnd="@dimen/base_horizontal_margin"
+            android:layout_marginBottom="@dimen/base_vertical_margin"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/compose_pizza"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pizzas_compo"
+                android:textColor="@color/colorBlack"
+                android:textSize="20sp"
+                android:layout_marginBottom="@dimen/base_vertical_margin"
+                tools:layout_editor_absoluteX="182dp"
+                tools:layout_editor_absoluteY="420dp" />
+
+            <Button
+                android:id="@+id/establishment_found"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nbr_establishment_found"
+                android:background="@color/colorPrimary"
+                android:layout_marginBottom="@dimen/base_vertical_margin"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:onClick="onEstablishmentFoundClick"/>
+
+            <Button
+                android:id="@+id/pizzas_found"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nbr_pizza_found"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:onClick="onPizzaFoundClick"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <ScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="378dp"
+                    android:layout_marginTop="@dimen/base_vertical_margin"
+                    android:layout_marginBottom="@dimen/base_vertical_margin"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <CheckBox
+                            android:id="@+id/checkBox1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/ingredient" />
+
+                        <CheckBox
+                            android:id="@+id/checkBox2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/ingredient" />
+
+                        <CheckBox
+                            android:id="@+id/checkBox3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/ingredient" />
+
+                        <CheckBox
+                            android:id="@+id/checkBox4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/ingredient" />
+
+                        <CheckBox
+                            android:id="@+id/checkBox5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/ingredient" />
+
+                        <CheckBox
+                            android:id="@+id/checkBox6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/ingredient" />
+
+                        <CheckBox
+                            android:id="@+id/checkBox7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/ingredient" />
+
+                        <CheckBox
+                            android:id="@+id/checkBox8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/ingredient" />
+
+                        <CheckBox
+                            android:id="@+id/checkBox9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/ingredient" />
+
+                        <CheckBox
+                            android:id="@+id/checkBox10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/ingredient" />
+
+                        <CheckBox
+                            android:id="@+id/checkBox11"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/ingredient" />
+
+                        <CheckBox
+                            android:id="@+id/checkBox12"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/ingredient" />
+
+                        <CheckBox
+                            android:id="@+id/checkBox13"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/ingredient" />
+
+                        <CheckBox
+                            android:id="@+id/checkBox14"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/ingredient" />
+
+                        <CheckBox
+                            android:id="@+id/checkBox15"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/ingredient" />
+
+                    </LinearLayout>
+                </ScrollView>
+                <ScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="378dp"
+                    android:layout_marginTop="@dimen/base_vertical_margin"
+                    android:layout_marginBottom="@dimen/base_vertical_margin"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <CheckBox
+                            android:id="@+id/checkBox16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/supplement" />
+
+                        <CheckBox
+                            android:id="@+id/checkBox17"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/supplement" />
+
+                        <CheckBox
+                            android:id="@+id/checkBox18"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/supplement" />
+
+                        <CheckBox
+                            android:id="@+id/checkBox19"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/supplement" />
+
+                        <CheckBox
+                            android:id="@+id/checkBox20"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/supplement" />
+
+                        <CheckBox
+                            android:id="@+id/checkBox21"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/supplement" />
+
+                        <CheckBox
+                            android:id="@+id/checkBox22"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/supplement" />
+
+                        <CheckBox
+                            android:id="@+id/checkBox23"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/supplement" />
+
+                        <CheckBox
+                            android:id="@+id/checkBox24"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/supplement" />
+
+                        <CheckBox
+                            android:id="@+id/checkBox25"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/supplement" />
+
+                        <CheckBox
+                            android:id="@+id/checkBox26"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/supplement" />
+
+                        <CheckBox
+                            android:id="@+id/checkBox27"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/supplement" />
+
+                        <CheckBox
+                            android:id="@+id/checkBox28"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/supplement" />
+
+                        <CheckBox
+                            android:id="@+id/checkBox29"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/supplement" />
+
+                        <CheckBox
+                            android:id="@+id/checkBox30"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/supplement" />
+
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:id="@+id/add_pizza"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_add_white_48dp"
+                    android:background="@color/colorPrimary"
+                    android:contentDescription="@string/add_pizza_button"
+                    android:layout_marginEnd="10sp"
+                    android:onClick="onAddPizzaClick"/>
+
+                <Button
+                    android:id="@+id/to_supplements"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/next_step_suppl"
+                    android:background="@color/colorPrimary"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textAllCaps="false"
+                    android:onClick="onNextStepSupplementClick"/>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

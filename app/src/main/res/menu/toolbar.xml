@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/menu_shopping_cart"
+        android:title="@string/menu_settings"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_shopping_cart_white_48dp"
+        android:onClick="onShoppingCartClick" />
+
+    <item
+        android:id="@+id/menu_settings"
+        android:title="@string/menu_settings"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_settings_white_48dp"
+        android:onClick="onSettingsClick" />
+
+    <item
+        android:id="@+id/menu_help_feedback"
+        android:title="@string/menu_help_feedback"
+        app:showAsAction="never"
+        android:onClick="onHelpFeedbackClick" />
+</menu>
+
+    <!--
+    https://developer.android.com/guide/topics/resources/menu-resource
+    -->

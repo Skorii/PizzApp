@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Pizza</string>
+    <string name="action_settings">Settings</string>
+    <string name="DEFAULT_TEXT">DEFAULT</string>
+
+    <!-- Compose Pizza Activity -->
+    <string name="pizzas_compo">Compose your pizza. Supplements can be selected in the next step.</string>
+    <string name="nbr_establishment_found">%1$d establishment found</string>
+    <string name="nbr_pizza_found">%1$d pizza found</string>
+    <string name="ingredient">Ingredient</string>
+    <string name="add_pizza_button">Add pizza button</string>
+    <string name="next_step_suppl">Next step (Supplements)</string>
+
+    <!-- Menu -->
+    <string name="menu_settings">Settings</string>
+    <string name="menu_help_feedback">Help &amp; Feedback</string>
+    <string name="title_activity_settings">Settings</string>
+
+</resources>
+
+    <!--
+    https://developer.android.com/guide/topics/resources/string-resource
+    -->
