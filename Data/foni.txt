@@ -1,0 +1,249 @@
+establishment = Pizzeria Foni
+address = Chaussée de Marche 66, 4121, Neuville-En-Condroz
+phone = 043844240
+opening
+  monday
+    day null
+    evening null
+  tuesday
+    day null
+    evening null
+  wednesday
+    day null
+    evening = 17.00-21.00
+  thursday
+    day null
+    evening = 17.00-21.00
+  friday
+    day = 11.00-13.15
+    evening = 17.00-21.30
+  saturday
+    day 11.00-13.15
+    evening = 17.00-21.30
+  sunday
+    day 11.00-13.15
+    evening = 17.00-21.00
+dishes
+  pizza
+    foccache
+      price[] s = 5.00, 0.00
+      ingredients[] s = ail, sel, origan
+    margherita
+      price[] s = 5.00, 8.00
+      ingredients[] s = tomate, mozzarella
+    luca
+      price[] s = 5.00, 8.00
+      ingredients[] s = tomate, jambon, épinard
+    prosciutto
+      price[] s = 5.50, 8.50
+      ingredients[] s = tomate, mozzarella, jambon
+    bolognese
+      price[] s = 5.50, 8.50
+      ingredients[] s = bolognese, mozzarella
+    al_funghi
+      price[] s = 5.50, 8.50
+      ingredients[] s = tomate, mozzarella, champignons
+    salami
+      price[] s = 5.50, 8.50
+      ingredients[] s = tomate, mozzarella, salami piq./non
+    casalinga
+      price[] s = 5.50, 8.50
+      ingredients[] s = tomate, mozzarella, anchois, ail
+    siciliana
+      price[] s = 5.50, 8.50
+      ingredients[] s = tomate, mozzarella, anchois, câpres
+    mamma
+      price[] s = 5.50, 8.50
+      ingredients[] s = tomate, mozzarella, oignons, olives
+    gianni
+      price[] s = 5.50, 8.50
+      ingredients[] s = tomate, mozzarella, zwans
+    boscaiola
+      price[] s = 6.00, 9.00
+      ingredients[] s = tomate, mozzarella, jambon, champignons
+    etna
+      price[] s = 6.00, 9.00
+      ingredients[] s = tomate, mozzarella, jambon, salami
+    felicita
+      price[] s = 6.00, 9.00
+      ingredients[] s = tomate, mozzarella, jambon, oignons
+    al_tono
+      price[] s = 6.00, 9.00
+      ingredients[] s = tomate, mozzarella, oignons, thon
+    fiorantina
+      price[] s = 6.00, 9.00
+      ingredients[] s = tomate, mozzarella, épinards, ananas
+    hawai
+      price[] s = 6.00, 9.00
+      ingredients[] s = tomate, mozzarella, jambon, ananas
+    sole_mio
+      price[] s = 6.00, 9.00
+      ingredients[] s = tomate, mozzarella, jambon, oeufs cuisson
+    giovanni
+      price[] s = 6.00, 9.00
+      ingredients[] s = tomate, mozzarella, anchois, oignons, olives, ail
+    paesana
+      price[] s = 6.00, 9.00
+      ingredients[] s = tomate, mozzarella, anchois, olives, câpres, pili-pili
+    renzo
+      price[] s = 6.00, 9.00
+      ingredients[] s = tomate, mozzarella, zwans, salami piq.
+    agrigento
+      price[] s = 6.00, 9.00
+      ingredients[] s = tomate, mozzarella, poivrons, salami
+    peperonne
+      price[] s = 6.00, 9.00
+      ingredients[] s = tomate, mozzarella, jambon, poivrons
+    campagnola
+      price[] s = 6.50, 9.50
+      ingredients[] s = tomate, mozzarella, épinards, champignons, thon
+    capricciosa
+      price[] s = 6.50, 9.50
+      ingredients[] s = tomate, mozzarella, petits pois, oeufs, zwans
+    quatre_fromages
+      price[] s = 6.50, 9.50
+      ingredients[] s = tomate, quatre fromages
+    calzone
+      price[] s = 6.50, 9.50
+      ingredients[] s = tomate, mozzarella, champignons, artichauts, jambon, fermée
+    rosa
+      price[] s = 6.50, 9.50
+      ingredients[] s = tomate, mozzarella, jambon, champignons, zwans
+    bella
+      price[] s = 6.50, 9.50
+      ingredients[] s = créme, tomate, mozzarella, champignons
+    volcano
+      price[] s = 6.50, 9.50
+      ingredients[] s = tomate, mozzarella, salami piq., champignons
+    chouchou
+      price[] s = 6.50, 9.50
+      ingredients[] s = crème, mozzarella, jambon, oignons
+    bomba
+      price[] s = 6.50, 9.50
+      ingredients[] s = tomate, mozzarella, salami piq., champignons, oignons, ail
+    4_saisons
+      price[] s = 6.50, 9.50
+      ingredients[] s = tomate, mozzarella, jambon, champignons, artichauts, oeufs
+    santiofran
+      price[] s = 6.50, 9.50
+      ingredients[] s = tomate, mozzarella, anchois, oignons, olives, brocolis
+    bambino
+      price[] s = 6.50, 9.50
+      ingredients[] s = tomate, mozzarella, jambon, zwans, olives
+    arrabiata
+      price[] s = 7.00, 10.00
+      ingredients[] s = tomate, mozzarella, poivrons, oignons, ail, pili-pili
+    pizza_du_chef
+      price[] s = 7.00, 10.00
+      ingredients[] s = tomate, mozzarella, jambon, champignons, olives, oignons, pili-pili
+    vegetarienne
+      price[] s = 7.00, 10.00
+      ingredients[] s = tomate, mozzarella, champignons, poivrons, artichauts, épinards, olives
+    pazza
+      price[] s = 7.00, 10.00
+      ingredients[] s = tomate, mozzarella, quatre fromages, salami piq., oeufs
+    raffadali
+      price[] s = 7.00, 10.00
+      ingredients[] s = tomate, mozzarella, jambon, quatre fromages
+    vassco
+      price[] s = 7.00, 10.00
+      ingredients[] s = crème, mozzarella, jambon, oignons, poivrons, ail, huile piq.
+    napolitaine
+      price[] s = 7.00, 10.00
+      ingredients[] s = tomate, mozzarella, olives, oignons, anchois, câpres
+    chipie
+      price[] s = 7.50, 10.50
+      ingredients[] s = tomate, quatre fromages, artichauts, oeufs, olives
+    irlandaise
+      price[] s = 7.50, 10.50
+      ingredients[] s = tomate, mozzarella, saumon fumé
+    nona
+      price[] s = 7.50, 10.50
+      ingredients[] s = bolognese, mozzarella, lardons, oignons, huile piq.
+    wazza
+      price[] s = 8.00, 11.00
+      ingredients[] s = tomate, mozzarella, quatre fromages, salami, jambon, zwans oignons
+    luna
+      price[] s = 8.00, 11.00
+      ingredients[] s = tomate, mozzarella, salami, champignons, oignons, merguez, ail
+    frutti_di_mare
+      price[] s = 8.00, 11.00
+      ingredients[] s = tomate, mozzarella, fruits de mer, ail
+    regina
+      price[] s = 8.00, 11.00
+      ingredients[] s = tomate, mozzarella, saumon fumé, oignons
+    scampi
+      price[] s = 8.00, 11.00
+      ingredients[] s = tomate, mozzarella, scampis, ail
+    stella
+      price[] s = 8.00, 11.00
+      ingredients[] s = tomate, mozzarella, jambon, salami piq., oeufs cru, oignons
+    divina
+      price[] s = 8.00, 11.00
+      ingredients[] s = tomate, mozzarella, quatre fromages, pancetta cuite
+    pita
+      price[] s = 7.00, 10.00
+      ingredients[] s = tomate, mozzarella, viande à pita, sauce au choix
+    pollo
+      price[] s = 8.50, 11.50
+      ingredients[] s = crème, mozzarella, courgettes, émincé poulet curry
+    aubergine
+      price[] s = 8.50, 11.50
+      ingredients[] s = tomate, mozzarella, aubergines, oignons, parmesan
+    gigi
+      price[] s = 8.50, 11.50
+      ingredients[] s = bolognese, mozzarella, poivrons, jambon parme, quatre fromages
+    meli
+      price[] s = 8.50, 11.50
+      ingredients[] s = tomate, mozzarella, champignons, oignons, épinards, artichauts, quatre fromages
+    radia
+      price[] s = 8.50, 11.50
+      ingredients[] s = tomate, mozzarella, scampis, oignons, olives
+    royale
+      price[] s = 8.50, 11.50
+      ingredients[] s = tomate, crème, 4 fromage, saumon, oignons, olives
+    san_daniele
+      price[] s = 8.50, 11.50
+      ingredients[] s = tomate, mozzarella, jambon parme
+    paco
+      price[] s = 9.00, 12.00
+      ingredients[] s = tomate, mozzarella, salami, jambon, poivrons, oignons, câpres, olives, champignons, huile piq.
+    facebouc
+      price[] s = 9.00, 12.00
+      ingredients[] s = tomate, mozzarella, pancetta, chèvre
+    l_angelo
+      price[] s = 9.00, 12.00
+      ingredients[] s = tomate, quatre fromages, artichauts, ail, basilic
+    calimero
+      price[] s = 9.50, 12.50
+      ingredients[] s = tomate, crème, 4 fromage, aubergines, thon, ail, oignons, olives
+    alsacienne
+      price[] s = 9.50, 12.50
+      ingredients[] s = crème, pomme de terre, oignons, gorgonzola, lardons
+    da_foni
+      price[] s = 9.50, 12.50
+      ingredients[] s = tomate, mozzarella, olives, crème, aubergines, oignons, oeufs
+    loulou_enzo
+      price[] s = 10.00, 13.00
+      ingredients[] s = tomate, mozzarella, jambon, champignons, olives, oignons, aubergines poivrons, pili-pili
+    perla
+      price[] s = 10.00, 13.00
+      ingredients[] s = tomate, mozzarella, quatre fromages, salami, rigatoni
+    italienne
+      price[] s = 10.50, 13.50
+      ingredients[] s = tomate, mozzarella, jambon parme, roquette, parmesan
+supplements
+  zwan = 2.00
+  quatre_fromages = 2.00
+  bologneise = 2.00
+  aubergines = 2.00
+  jambon_de_parme = 2.00
+  merguez = 2.00
+  saumon = 2.50
+  fruits_de_mer = 2.50
+  poulet = 2.50
+  viande_pita = 2.50
+  scampis = 2.50
+  autres_et_petits_pains = 1.00
+  huile_ail = free
+  huile_piquante = free
