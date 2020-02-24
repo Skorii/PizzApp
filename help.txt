@@ -1,0 +1,1 @@
+GET JSON from internet + parsing : https://www.youtube.com/watch?v=y2xtLqP8dSQ
