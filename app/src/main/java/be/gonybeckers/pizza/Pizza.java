@@ -1,13 +1,15 @@
-package be.gonybeckers.pizza;
+package be.gonybeckers.pizza.pizzeria;
+
+import java.util.ArrayList;
 
 public class Pizza {
     private String pizzeria;
     private String name;
-    private String[] ingredients;
-    private String[] supplements;
-    private float price;
+    private ArrayList<String> ingredients;
+    private ArrayList<Supplement> supplements;
+    private String[] price;
 
-    public Pizza(String pizzeria, String name, String[] ingredients, String[] supplements, float price) {
+    public Pizza(String pizzeria, String name, ArrayList<String> ingredients, ArrayList<Supplement> supplements, String[] price) {
         this.pizzeria = pizzeria;
         this.name = name;
         this.ingredients = ingredients;
@@ -15,10 +17,11 @@ public class Pizza {
         this.price = price;
     }
 
-    public Pizza(String pizzeria, String name, String[] ingredients, float price) {
+    public Pizza(String pizzeria, String name, ArrayList<String> ingredients, String[] price) {
         this.pizzeria = pizzeria;
         this.name = name;
         this.ingredients = ingredients;
+        this.supplements = new ArrayList<>();
         this.price = price;
     }
 
@@ -38,27 +41,27 @@ public class Pizza {
         this.name = name;
     }
 
-    public String[] getIngredients() {
+    public ArrayList<String> getIngredients() {
         return ingredients;
     }
 
-    public void setIngredients(String[] ingredients) {
+    public void setIngredients(ArrayList<String> ingredients) {
         this.ingredients = ingredients;
     }
 
-    public String[] getSupplements() {
+    public ArrayList<Supplement> getSupplements() {
         return supplements;
     }
 
-    public void setSupplements(String[] supplements) {
+    public void setSupplements(ArrayList<Supplement> supplements) {
         this.supplements = supplements;
     }
 
-    public float getPrice() {
+    public String[] getPrice() {
         return price;
     }
 
-    public void setPrice(float price) {
+    public void setPrice(String[] price) {
         this.price = price;
     }
 }
