@@ -8,6 +8,7 @@
     <string name="nbr_establishment_found">%1$d establishment found</string>
     <string name="nbr_pizza_found">%1$d pizza found</string>
     <string name="ingredient">Ingredient</string>
+    <string name="supplement">Supplement</string>
     <string name="add_pizza_button">Add pizza button</string>
     <string name="next_step_suppl">Next step (Supplements)</string>
 
